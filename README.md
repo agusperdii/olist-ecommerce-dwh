@@ -12,7 +12,7 @@ The pipeline transforms raw, unorganized CSV data into a clean, analytical **Sta
 ---
 
 ## 🏗️ Architecture: The Medallion Layer
-![Data Architecture](docs/High Level Architecture.png)
+![High Level Architecture](docs/High%20Level%20Architecture.png)
 The project is structured into three logical layers within Microsoft SQL Server:
 
 ### 1. 🥉 Bronze Layer
