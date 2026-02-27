@@ -84,8 +84,9 @@ A comprehensive SQL script was developed to audit the Silver Layer before promot
 1. Initialize DB: Run `scripts/00_init_database_and_schemas.sql`.
 2. Bronze Layer: Execute `ddl_bronze.sql`, `procedure_load_bronze.sql`, and `seed_translation.sql` inside `scripts/bronze/`.
 3. Silver Layer: Execute `ddl_silver.sql` and `procedure_load_silver.sql` inside `scripts/silver/`.
-4. Quality Check: Run the validation scripts located in `tests/`.
-5. Visualize: Connect your BI tool to the SQL Server database.
+4. Gold Layer: Execute `ddl_gold.sql` and `procedure_load_gold.sql` inside `scripts/gold/`.
+5. Quality Check: Run the validation scripts located in `tests/`.
+6. Visualize: Connect your BI tool to the SQL Server database.
 
 ---
 
